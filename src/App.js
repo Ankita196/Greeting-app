@@ -19,10 +19,21 @@ if (curDate >= 1 && curDate < 12) {
   greeting = 'Good Night';
 }
 if(weekday=="Monday"){
-  quote="Lets start fresh"
+  quote="Uth ja sunday khtm ho gya"
 }else if(weekday=='Sunday'){
   quote="aaj to holiday hai"
+}else if(weekday=='Tuesday'){
+  quote="aaj to class hai"
+}else if(weekday=='Wednesday'){
+  quote="chlo adha week khtm ho jayega aaj"
+}else if(weekday=='Thursday'){
+  quote="Aaj Kuch Sikhte hai"
+}else if(weekday=='Friday'){
+  quote="finally weekend hone me ek din baki hai"
+}else{
+  quote="Aj krle kl to holiday hi hai"
 }
+
 
 export default function App() {
   return (
