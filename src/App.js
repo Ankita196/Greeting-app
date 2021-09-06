@@ -19,7 +19,7 @@ if (curDate >= 1 && curDate < 12) {
   greeting = 'Good Night';
 }
 if(weekday=="Monday"){
-  quote="Uth ja sunday khtm ho gya"
+  quote="Uth ja  office hai tera"
 }else if(weekday=='Sunday'){
   quote="aaj to holiday hai"
 }else if(weekday=='Tuesday'){
@@ -38,11 +38,11 @@ if(weekday=="Monday"){
 export default function App() {
   return (
     <div>
-      <h1>Hello Dear ,It's  {weekday}</h1>
+      <h1>Hello Beta ji Aj   {weekday} hai</h1>
       <h1>{quote}</h1>
-      <h1>Todays  Date :{todayDate}</h1>
-     <h8>refresh kr agar current time dekhna hai to</h8>
-      <h1>{h}</h1>
+      <h1> Date to aaj {todayDate} hai</h1>
+     <h8>time kya dekh rhe ho </h8>
+      <h1>abhi to {h} bj rhe hai</h1>
     </div>
   );
 }
