@@ -23,11 +23,11 @@ if(weekday=="Monday"){
 }else if(weekday=='Sunday'){
   quote="aaj to holiday hai"
 }else if(weekday=='Tuesday'){
-  quote="aaj to class hai"
+  quote="aaj to Riya ki class hai"
 }else if(weekday=='Wednesday'){
   quote="chlo adha week khtm ho jayega aaj"
 }else if(weekday=='Thursday'){
-  quote="Aaj Kuch Sikhte hai"
+  quote="Aaj bhi Riya ki class hai"
 }else if(weekday=='Friday'){
   quote="finally weekend hone me ek din baki hai"
 }else{
